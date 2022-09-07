@@ -47,6 +47,10 @@ Some stars are different and grant special buffs and abilities, the possible sta
 - **Worm Holes** - Stars with Worm Holes come in pairs, travel between connected worm holes takes `1 tick`.
 - **Pulsars** - Pulsars are always visible to all players in the game.
 
+### Special Star Monthly Bans
+
+In **official games**, 2 special stars are banned from the pool, this resets on the 1st of every month. Check the game settings before joining an official game to see which special stars are banned and adapt your strategy and tactical play to gain an edge.
+
 ## Infrastructure
 
 There are 3 types of infrastructure that can be built at stars:
