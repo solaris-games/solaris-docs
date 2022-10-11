@@ -41,7 +41,7 @@ Some stars are different and grant special buffs and abilities, the possible sta
 
 - **Normal Stars** - These stars have no special buffs or abilities.
 - **Black Holes** - Black Holes have `+3` Scanning Range but have reduced natural resources.
-- **Nebulas** - Ships inside a Nebula are hidden from all other players.
+- **Nebulas** - Hides star details from all other players. This includes resources, garrisoned ships and ship manufacturing.
 - **Asteroid Fields** - Asteroid Fields have `+1` Defender Bonus in combat.
 - **Binary Stars** - Binary Star systems start with additional natural resources.
 - **Worm Holes** - Stars with Worm Holes come in pairs, travel between connected worm holes takes `1 tick`.
