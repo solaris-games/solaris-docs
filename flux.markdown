@@ -19,6 +19,6 @@ Flux affects games in interesting ways that mix up the metagame from month to mo
 | July      | Weapons technology is fixed.                                 | Weapons technology is fixed at Level 7.                                                    |
 | August    | The Defender Bonus is disabled.                              |                                                                                            |
 | September | Production Cycles are shorter.                               | Production Cycles are shorter by 6 ticks.                                                  |
-| October   | The number of specialist bans this month has increased.      | Increased from 3 to 6 bans.                                                                |
+| October   | The number of specialist bans is increased.                  | Increased from 3 to 6 bans.                                                                |
 | November  | Increased starting credits and specialist tokens.            | Credits are increased by x2 (max 3000) and Specialist Tokens are increased by x2 (max 100) |
 | December  | Gain more rank points from playing games.                    | Rank rewards are increased by x2 on top of any other multipliers (special games grant x2). |
