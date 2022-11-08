@@ -2,6 +2,7 @@
 There are a few different game modes, types and win conditions in Solaris. These are as follows:
 
 - **Conquest** - This is the standard way to play Solaris, players fight over stars and attempt to capture the target number of stars to win the game.
+- **Fogged Mode** - Players are limited to what territories they can see within their scanning range, stars are visible but ownership is hidden outside of scanning range.
 - **Dark Mode** - Players are limited to what they can see within their scanning range, only stars and carriers in scanning range are visible.
 - **Ultra Dark Mode** - Dark mode on steriods, along with dark mode settings the leaderboard and player statistics are based on your scanning range.
 - **Capital Conquest** - This is the same as Conquest however players fight to capture other player's capital stars.
