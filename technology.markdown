@@ -42,10 +42,11 @@ Where `baseCost` is:
 
 Where `expenseConfig` is:
 
-- `1` for standard costs.
-- `2` for expensive costs.
-- `4` for very expensive costs.
-- `8` for crazy expensive costs.
+- `1` for cheap costs.
+- `2` for standard costs.
+- `4` for expensive costs.
+- `8` for very expensive costs.
+- `16` for crazy expensive costs.
 
 ## Experimentation
 
