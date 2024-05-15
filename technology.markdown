@@ -74,7 +74,7 @@ The equation is:
 
 Increases ship production rate on all stars. 
 
-A star produces `(totalIndustry * (manufacturing + 5)) / tickPerCycle` ships per tick.
+A star produces `totalIndustry * (manufacturing + 5) / tickPerCycle` ships per tick.
 
 ## Specialists
 Increases the number of specialist tokens awarded at the end of a galactic cycle, these are used to hire specialists. 
