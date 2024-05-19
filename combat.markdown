@@ -72,7 +72,7 @@ For example:
 
 ## Formal Alliance Combat Rules
 
-When formal alliances option is enabled then a there are a few conditions that need to be met in order for combat to take place:
+When formal alliances option is enabled then there are a few conditions that need to be met in order for combat to take place:
 
 1. When a carrier arrives at a star, if the player is allied with the defender then no combat occurs.
 2. When a carrier arrives at a star, if the player is not allied with the defender then combat occurs. 
