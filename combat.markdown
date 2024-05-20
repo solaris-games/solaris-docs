@@ -79,7 +79,7 @@ When formal alliances option is enabled then there are a few conditions that nee
     * 2a. Carriers in orbit (or arriving on the same tick) who are allied to the defender will help the defender. If the player whose carrier is helping the defender is also allied with the attacker, their diplomatic status will not be affected.
     * 2b. If the attacker wins and captures the star, then combat will repeat until there are no non-allies to the defender.
 3. When a carrier intercepts another carrier in space, then combat occurs between non-allies.
-4. When a player changes their diplomatic status from allied to neutral or enemy, then combat occurs with combat outcome displayed on the next tick.
+4. When a player changes their diplomatic status from allied to neutral or enemy, then combat occurs with combat outcome displayed on the next tick. If diplomatic status is restored back to allies within the same tick, no combat occurs.
 
 > Note: More than 2 players can be in orbit at the star provided that they are allied with the defender. Combat will not occur if the guest players are enemies but are both allied to the defender.
 
