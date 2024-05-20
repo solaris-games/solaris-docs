@@ -8,6 +8,25 @@ The types of technologies are as follows:
 
 ![The Research menu](img/research-menu.png)
 
+The science amount needed to complete a research `level` is given by the formula:
+
+- Standard: `50 * expenseConfig * level`
+- Exponential: `50 * expenseConfig * growthFactor ** (level - 1)`
+
+Where `expenseConfig` is:
+
+- `1` for cheap costs.
+- `2` for standard costs.
+- `4` for expensive costs.
+- `8` for very expensive costs.
+- `16` for crazy expensive costs.
+
+Where `growthFactor` is:
+
+- `1.25` for soft growth.
+- `1.50` for medium growth.
+- `1.75` for hard growth.
+
 ## Scanning
 
 Improves the visible area star a star can see. The higher your scanning, the further you can see. 
@@ -74,7 +93,7 @@ The equation is:
 
 Increases ship production rate on all stars. 
 
-A star produces `totalIndustry * (manufacturing + 5) / tickPerCycle` ships per tick.
+A star produces `industry * (manufacturing + 5) / tickPerCycle` ships per tick.
 
 ## Specialists
 Increases the number of specialist tokens awarded at the end of a galactic cycle, these are used to hire specialists. 
