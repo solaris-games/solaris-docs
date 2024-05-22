@@ -3,7 +3,7 @@
 ## Prerequisites
 Install the following:
 
-- [Ruby v2.7.0](https://www.ruby-lang.org/en/documentation/installation/)
+- [Ruby v3.0.0](https://www.ruby-lang.org/en/documentation/installation/)
 - [Jekyll](https://jekyllrb.com/docs/installation/ubuntu/)
 
 For more information see [here](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll)
