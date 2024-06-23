@@ -101,4 +101,4 @@ Increases the number of specialist tokens awarded at the end of a galactic cycle
 The equation is:
 
 - Standard: `tokens = tech level`
-- Experimental: `ceil(min(star count * tech level * 0.1, tech level))`
+- Experimental: `ceil(min(star count * tech level * (2 / stars per player), tech level))`
