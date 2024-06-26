@@ -1,5 +1,5 @@
 # Combat
-(Updated May 18, 2024)
+(Updated June 26, 2024)
 
 Combat occurs when a Carrier arrives at a non-allied Star or when a Carrier intercepts a non-allied Carrier in hyperspace. The combat summary can be viewed in the event log.
 
@@ -130,7 +130,7 @@ Here are some commonly asked rule clarifications for carrier-to-star and carrier
 
 #### Carrier to Carrier Combat
 
-- Players deal damage simultaneously, not in turns. This could lead to mutual deduction.
+- Players deal damage simultaneously, not in turns. This could lead to mutual destruction.
 - Combat occurs between carriers traveling to and from the same star. 
 - Carriers can attack from the front (head-to-head combat) and catch up from behind (i.e., faster carriers can catch up to slower carriers).
 - Carrier to carrier combat occurs when carriers travel through the same wormhole in opposite directions on the same tick.
