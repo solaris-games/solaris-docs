@@ -34,7 +34,7 @@ When specialists with Weapons buffs/debuffs participate in combat, the following
 <details markdown="1" style="color:orange;background-color:#222222">
 <summary><small><i>Click here for more details about combat effective weapons calculation</i></small></summary>
 
-`effective weapons level = weapons technology level + max debuff + max buff + combined defender bonus + deduction by enemy + special buff`
+`effective weapons level = weapons technology level + max debuff + max buff + combined defender bonus + deduction by enemy`
 
 * `weapons technology level` = largest technology level available to any of the players participating on the player’s side in a combat
 
@@ -48,8 +48,6 @@ When specialists with Weapons buffs/debuffs participate in combat, the following
     * Orbital Cannon falls under this category and would stack with any other weapon buff
 
 * `deduction by enemy` = lowest (worst) deduction imposed by an enemy’s specialist available to any of the players on enemy’s side; deduction by enemy is negative, so it lowers the effective weapons level of the player’s side; deductions by enemy do not stack, only the lowest (largest negative) one is used
-
-* `special buff` = additional buff provided only by War Hero specialist (see War Hero specialist description for more information)
 
 If calculated effective weapons level < 1, then effective weapons level = 1
 
