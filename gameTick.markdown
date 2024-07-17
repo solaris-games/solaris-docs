@@ -2,7 +2,7 @@
 
 The game runs in ticks, during a tick the following events happen in order:
 
-1. Scheduled bulk upgrades are performed.
+1. Scheduled bulk upgrades for the previous tick are performed.
 2. Abandoned stars are captured by allied players.
 3. Gifted carriers in orbit of allied stars are transferred.
 4. Carriers move and carrier-to-carrier combat is resolved.
