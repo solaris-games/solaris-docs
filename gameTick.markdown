@@ -13,9 +13,9 @@ The game runs in ticks, during a tick the following events happen in order:
 9. Carrier garrison actions are performed.
 10. Combat occurs at contested stars.
 11. If at the end of a galactic cycle:
-11a. Players receive credits from economy and banking.
-11b. Experimentations are performed.
-11c. Carrier upkeep is deducted.
+    1. Players receive credits from economy and banking.
+    2. Experimentation is performed.
+    3. Carrier upkeep is deducted.
 12. Game checks for afk and defeated players.
 13. AI actions are performed.
 14. Research is performed.
