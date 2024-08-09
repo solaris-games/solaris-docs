@@ -24,3 +24,14 @@ The game runs in ticks, during a tick the following events happen in order:
 17. Time-limited specialists are checked for expiration.
 18. Game checks for a winner.
 19. Intel is logged.
+
+## Carrier Action Order
+
+If multiple carriers perform the same category of action on the same tick at the same star
+(for example, multiple carriers are scheduled to collect),
+the order of actions is resolved according to these rules:
+
+1. The carrier with more ships performs its action first.
+2. If carriers have the same number of ships,
+   the one that traveled the shorter distance from its last waypoint goes first.
+4. If carriers tie in both of the above, the carrier that was built first goes first.
