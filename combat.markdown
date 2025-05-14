@@ -38,8 +38,7 @@ When specialists with Weapons buffs/debuffs participate in combat, the following
 
 * `weapons technology level` = largest technology level available to any of the players participating on the player’s side in a combat
 
-* `max debuff` = lowest (worst) debuff from any of the specialist belonging to any of the players participating on player’s side; debuff is negative, so it lowers the effective weapons level of the player’s side; debuffs do not stack, only the lowest one is used
-    * Both Star and Carrier specialist with weapon debuffs are included in this category
+* `max debuff` = lowest (worst) debuff applicable to the side; debuff is negative, so it lowers the effective weapons level of the player’s side. The debuff is caused by a specialist effect, both star and carrier specialists can apply. For the defender, any specialist can cause the debuff (the largest is applied). For the attacker side, it depends on the "Combat resolution: weapons malus" setting (see below) whether *any* carrier applies or only the largest.
 
 * `max buff` = highest (best) buff from any of the specialist belonging to any of the players participating on player’s side; buff is positive, so it increases the effective weapons level of the player’s side; buffs do not stack, only the highest one is used
     * Only Star specialist that provides weapon buff in this category is War Machine
@@ -50,6 +49,11 @@ When specialists with Weapons buffs/debuffs participate in combat, the following
 * `deduction by enemy` = lowest (worst) deduction imposed by an enemy’s specialist available to any of the players on enemy’s side; deduction by enemy is negative, so it lowers the effective weapons level of the player’s side; deductions by enemy do not stack, only the lowest (largest negative) one is used
 
 If calculated effective weapons level < 1, then effective weapons level = 1
+
+Weapons malus setting:
+
+* Any carrier (legacy): a malus (debuff) on the attacker side is applied from any carrier participating in combat (the highest by absolute value debuff applies)
+* Largest carrier (default since 251.2): a malus on the attacker side is applied if the carrier is amongst the largest carriers on this side (from all carriers that have the highest ship count, the highest by absolute value malus is applied)
 
 Notes:
 
