@@ -84,6 +84,15 @@ building infrastructure cheaper.
  - Build a Warp Gate to accelerate carrier movement.
  - Upgrade the Star by hiring a Specialist which grants special abilities.
 
+### Split resources
+
+Split resources is a game setting that means natural resources are split into three different values, each one affecting one type of infrastructure. Therefore, stars with e.g. high economy NR, but low industry NR can exist.
+
+Special star types get specific bonuses that affect their NR:
+- Asteroid fields have a higher economy NR
+- Binary stars have a higher industry NR
+- Nebula stars have a higher science NR
+
 ## Warp Gates
 
 **Warp Gates** will improve the speed by times 3 of what Carriers typically
