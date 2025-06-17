@@ -93,6 +93,10 @@ Special star types get specific bonuses that affect their NR:
 - Binary stars have a higher industry NR
 - Nebula stars have a higher science NR
 
+**Interaction with war machines**:
+
+If a war machine specialist is applied to a star in a split resource game, it reduces the resources proportionally. The life duration of the war machine will thus be the average of the three NR values.
+
 ## Warp Gates
 
 **Warp Gates** will improve the speed by times 3 of what Carriers typically
